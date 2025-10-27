@@ -1,0 +1,21 @@
+{
+  "name": "notes-app2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdu36-png/notes-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdu36-png/notes-app/issues"
+  },
+  "homepage": "https://github.com/abdu36-png/notes-app#readme"
+}
