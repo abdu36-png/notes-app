@@ -84,7 +84,7 @@ app.delete("/api/notes/:id", async (req, res) => {
 });
 
 // ===== FRONTEND (React Build) =====
-const frontendPath = path.join(__dirname, "../frontend/dist");
+const frontendPath = path.join(__dirname, "dist");
 app.use(express.static(frontendPath));
 
 // React Router fallback for SPA
@@ -99,5 +99,4 @@ app.listen(PORT, () => {
 
 
 
-//RbNolEDT7a33Hv6k
-//mongodb+srv://seidamir26_db_user:RbNolEDT7a33Hv6k@mynoteapp.v7lw26r.mongodb.net/?retryWrites=true&w=majority&appName=MyNoteapp
+
